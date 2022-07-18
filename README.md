@@ -1,10 +1,8 @@
 
-# Awesome TensorFlow Lite [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-[TensorFlow Lite](https://www.tensorflow.org/lite) is a set of tools that help convert and optimize TensorFlow models to run on mobile and edge devices. It's currently running on more than 4 billion devices! With TensorFlow 2.x, you can train a model with tf.Keras, easily convert a model to .tflite and deploy it; or you can download a pretrained TensorFlow Lite model from the model zoo.
+# Awesome Embedded Machine Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 This is an awesome list of machine learning on embedded devices including models with sample apps, helpful tools and learning resources
-* Showcase what the community has built with TensorFlow Lite
+* Showcase what the community has built
 * Put all the samples side-by-side for easy reference
 * Share knowledge and learning resources
 
@@ -17,7 +15,6 @@ Please submit a PR if you would like to contribute and follow the guidelines [he
   - [Computer vision](#computer-vision)
     - [Classification](#classification)
     - [Detection](#detection)
-    - [Generative](#generative)
     - [Other](#other)
   - [Text](#text)
   - [Speech](#speech)
@@ -61,7 +58,7 @@ Note: pretrained TensorFlow Lite models from MediaPipe are included, which you c
 #### Other
 | Task | Model | App \| Reference | Source |
 | -|-|-|-|
-| Low-light image enhancement   | [Models on TF Hub](https://tfhub.dev/sayakpaul/mirnet-fixed/1)                                                     | [Project repo](https://github.com/sayakpaul/MIRNet-TFLite)  \| [Original Paper](https://arxiv.org/pdf/2003.06792v2.pdf) \| [Flutter](https://github.com/sayannath/MIRNet-Flutter)|                                                                                                                           | Community          |
+| Low-light image enhancement   | [Models on TF Hub](https://tfhub.dev/sayakpaul/mirnet-fixed/1)                                                     | [Project repo](https://github.com/sayakpaul/MIRNet-TFLite)  \| [Original Paper](https://arxiv.org/pdf/2003.06792v2.pdf) |                                                                                                                     | Community          |
 | OCR                             |[Models on TF Hub](https://tfhub.dev/tulasiram58827/lite-model/keras-ocr/dr/2)     | [Project Repository](https://github.com/tulasiram58827/ocr_tflite)  | Community
 
 
