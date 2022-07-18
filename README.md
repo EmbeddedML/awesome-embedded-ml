@@ -1,5 +1,5 @@
 
-# Awesome TensorFlow Lite [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Twitter](https://img.shields.io/badge/Twitter-%40margaretmz-blue)](https://twitter.com/margaretmz)
+# Awesome TensorFlow Lite [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 [TensorFlow Lite](https://www.tensorflow.org/lite) is a set of tools that help convert and optimize TensorFlow models to run on mobile and edge devices. It's currently running on more than 4 billion devices! With TensorFlow 2.x, you can train a model with tf.Keras, easily convert a model to .tflite and deploy it; or you can download a pretrained TensorFlow Lite model from the model zoo.
 
@@ -17,20 +17,15 @@ Please submit a PR if you would like to contribute and follow the guidelines [he
   - [Computer vision](#computer-vision)
     - [Classification](#classification)
     - [Detection](#detection)
-    - [Segmentation](#segmentation)
-    - [Style Transfer](#style-transfer)
     - [Generative](#generative)
-    - [Post estimation](#post-estimation)
     - [Other](#other)
   - [Text](#text)
   - [Speech](#speech)
   - [Recommendation](#recommendation)
-  - [Game](#game)
 - [Model zoo](#model-zoo)
   - [TensorFlow Lite models](#tensorflow-lite-models)
   - [TensorFlow models](#tensorflow-models)
 - [Ideas and Inspiration](#ideas-and-inspiration)
-- [ML Kit examples](#ml-kit-examples)
 - [Plugins and SDKs](#plugins-and-sdks)
 - [Helpful links](#helpful-links)
 - [Learning resources](#learning-resources)
