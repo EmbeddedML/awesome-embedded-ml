@@ -18,7 +18,6 @@ Please submit a PR if you would like to contribute and follow the guidelines [he
     - [Other](#other)
   - [Text](#text)
   - [Speech](#speech)
-  - [Recommendation](#recommendation)
 - [Model zoo](#model-zoo)
   - [TensorFlow Lite models](#tensorflow-lite-models)
   - [TensorFlow models](#tensorflow-models)
@@ -70,12 +69,6 @@ Note: pretrained TensorFlow Lite models from MediaPipe are included, which you c
 | Speech Synthesis   | Tacotron-2, FastSpeech2, MB-Melgan |  TensorSpeech |
 | Speech Synthesis(TTS)   | Tacotron2, FastSpeech2, MelGAN, MB-MelGAN, HiFi-GAN, Parallel WaveGAN | [Inference Notebook](https://github.com/tulasiram58827/TTS_TFLite/blob/main/End_to_End_TTS.ipynb)      \| [Project Repository](https://github.com/tulasiram58827/TTS_TFLite/)  | Community  |
 
-### Recommendation
-| Task               | Model                              | App \| Reference                                                                      | Source       |
-| ------------------ |------------------------------------| ------------------------------------------------------------------------------------- | ------------ |
-| On-device Recommendation | [Dual-Encoder](https://github.com/tensorflow/examples/tree/master/lite/examples/recommendation/ml)  |  \| [Reference](https://blog.tensorflow.org/2020/09/introduction-to-tflite-on-device-recommendation.html)     | tf.org & Community      |
-
-
 ## Model zoo
 
 ### TensorFlow Lite models
@@ -85,11 +78,6 @@ These are the TensorFlow Lite models that could be implemented in apps and thing
   * [TensorFlow Lite models](https://www.tensorflow.org/lite/models) - With official Android and iOS examples.
   * [Pretrained models](https://www.tensorflow.org/lite/guide/hosted_models) - Quantized and floating point variants.
   * [TensorFlow Hub](https://tfhub.dev/) - Set "Model format = TFLite" to find TensorFlow Lite models.
-
-### TensorFlow models
-These are TensorFlow models that could be converted to .tflite and then implemented in apps and things:
-* [TensorFlow models](https://github.com/tensorflow/models/tree/master/official) - Official TensorFlow models.
-* [Tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) - Pre-trained on COCO, KITTI, AVA v2.1, iNaturalist Species datasets.
 
 ## Ideas and Inspiration
 * [E2E TFLite Tutorials](https://github.com/ml-gde/e2e-tflite-tutorials) - Checkout this repo for sample app ideas and seeking help for your tutorial projects. Once a project gets completed, the links of the TensorFlow Lite model(s), sample code and tutorial will be added to this awesome list.
