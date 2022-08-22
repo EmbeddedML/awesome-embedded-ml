@@ -20,7 +20,7 @@ Please submit a PR if you would like to contribute and follow the guidelines [he
   - [Speech](#speech)
 - [Model zoo](#model-zoo)
   - [TensorFlow Lite models](#tensorflow-lite-models)
-  - [TensorFlow models](#tensorflow-models)
+  - [CMSIS Libraries](#CMSIS-Libraries)
 - [Ideas and Inspiration](#ideas-and-inspiration)
 - [Plugins and SDKs](#plugins-and-sdks)
 - [Helpful links](#helpful-links)
