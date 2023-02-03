@@ -10,17 +10,13 @@ Please submit a PR if you would like to contribute and follow the guidelines [he
 
 <!-- omit in toc -->
  ## Contents
-- [Past announcements:](#past-announcements)
-- [Models with samples](#models-with-samples)
+- [Model zoo](#model-zoo)
   - [Computer vision](#computer-vision)
     - [Classification](#classification)
     - [Detection](#detection)
     - [Other](#other)
   - [Text](#text)
   - [Speech](#speech)
-- [Model zoo](#model-zoo)
-  - [TensorFlow Lite models](#tensorflow-lite-models)
-  - [CMSIS Libraries](#CMSIS-Libraries)
 - [Ideas and Inspiration](#ideas-and-inspiration)
 - [Plugins and SDKs](#plugins-and-sdks)
 - [Helpful links](#helpful-links)
@@ -30,16 +26,6 @@ Please submit a PR if you would like to contribute and follow the guidelines [he
   - [Videos](#videos)
   - [Podcasts](#podcasts)
   - [MOOCs](#moocs)
-
-## Past announcements:
-Here are some past feature annoucements of TensorFlow Lite:
-* [Announcement of the new converter](https://groups.google.com/a/tensorflow.org/d/msg/tflite/Z_h7706dt8Q/sNrjPj4yGgAJ) - [MLIR](https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d)-based and enables conversion of new classes of models such as Mask R-CNN and Mobile BERT etc., supports functional control flow and better error handling during conversion. Enabled by default in the nightly builds\.
-* [Model Maker](https://www.tensorflow.org/lite/guide/model_maker) - Create your custom [image & text](https://github.com/tensorflow/examples/tree/master/tensorflow_examples/lite/model_maker) classification models easily in a few lines of code. See below the Icon Classifier for a tutorial by the community.
-* [Model Metadata](https://www.tensorflow.org/lite/convert/metadata) - Provides a standard for model descriptions.
-
-## Models with samples
-Here are the TensorFlow Lite models with app / device implementations, and references.
-Note: pretrained TensorFlow Lite models from MediaPipe are included, which you can implement with or without MediaPipe.
 
 ### Computer vision
 
@@ -88,14 +74,12 @@ These are the TensorFlow Lite models that could be implemented in apps and thing
 * [Coral Edge TPU](https://coral.ai/) - Edge hardware by Google. [Coral Edge TPU examples](https://coral.ai/examples/).
 
 ## Helpful links
+* [Model Maker](https://www.tensorflow.org/lite/guide/model_maker) - Create your custom [image & text](https://github.com/tensorflow/examples/tree/master/tensorflow_examples/lite/model_maker) classification models easily in a few lines of code. See below the Icon Classifier for a tutorial by the community.
+* [Model Metadata](https://www.tensorflow.org/lite/convert/metadata) - Provides a standard for model descriptions.
 * [Netron](https://github.com/lutzroeder/netron) - A tool for visualizing models.
-* [Material design guidelines for ML](https://material.io/collections/machine-learning/patterns-for-machine-learning-powered-features.html) - How to design machine learning powered features. A good example: [ML Kit Showcase App](https://github.com/firebase/mlkit-material-android).
 * [The People + AI Guide book](https://pair.withgoogle.com/) - Learn how to design human-centered AI products.
 * [Adventures in TensorFlow Lite](https://github.com/sayakpaul/Adventures-in-TensorFlow-Lite) - A repository showing non-trivial conversion processes and general explorations in TensorFlow Lite.
 * [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite/microcontrollers)
-
-## Learning resources
-Interested but not sure how to get started? Here are some learning resources that will help you whether you are a beginner or a practitioner in the field for a while.
 
 ### Blog posts
 * 2021-11-09 [On-device training in TensorFlow Lite](https://blog.tensorflow.org/2021/11/on-device-training-in-tensorflow-lite.html)
@@ -111,10 +95,8 @@ Interested but not sure how to get started? Here are some learning resources tha
 * 2018-06-11 - [Why the Future of Machine Learning is Tiny](https://petewarden.com/2018/06/11/why-the-future-of-machine-learning-is-tiny/) - By Pete Warden.
 
 ### Books
-* 2021-12-01 [AI and Machine Learning On-Device Development](https://learning.oreilly.com/library/view/ai-and-machine/9781098101732/) - By Laurence Moroney
-* 2020-10-01 [AI and Machine Learning for Coders](https://learning.oreilly.com/library/view/ai-and-machine/9781492078180/) - By Laurence Moroney
-* 2020-04-06 [Mobile Deep Learning with TensorFlow Lite, ML Kit and Flutter](https://www.packtpub.com/product/mobile-deep-learning-with-tensorflow-lite-ml-kit-and-flutter/9781789611212): Build scalable real-world projects to implement end-to-end neural networks on Android and iOS ([GitHub](https://github.com/PacktPublishing/Mobile-Deep-Learning-Projects)) - By Anubhav Singh ([@xprilion](https://github.com/xprilion)) and Rimjhim Bhadani ([@Rimjhim28](https://github.com/Rimjhim28)).
-* 2020-03-01 Raspberry Pi for Computer Vision ([Complete Bundle](https://www.pyimagesearch.com/raspberry-pi-for-computer-vision) | [TOC](https://www.pyimagesearch.com/2019/04/05/table-of-contents-raspberry-pi-for-computer-vision/)) - By the PyImageSearch Team: Adrian Rosebrock, David Hoffman, Asbhishek Thanki, Sayak Paul , and David Mcduffee.
+* 2021-12-01 [AI and Machine Learning On-Device Development](https://www.oreilly.com/library/view/ai-and-machine/9781098101732/) - By Laurence Moroney
+* 2020-10-01 [AI at the Edge](https://www.oreilly.com/library/view/ai-at-the/9781098120191/) - By Daniel Situnayake and Jenny Plunket.
 * 2019-12-01 [TinyML](http://shop.oreilly.com/product/0636920254508.do) - By Pete Warden and Daniel Situnayake.
 * 2019-10-01 [Practical Deep Learning for Cloud, Mobile, and Edge](https://www.practicaldeeplearning.ai/) - By Anirudh Koul, Siddha Ganju, and Meher Kasam.
 
